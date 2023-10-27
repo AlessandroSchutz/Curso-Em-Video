@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anotações de HTML5</title>
+    <style>
+        body{
+            background-color: azure;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{        
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.5em;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder;
+            padding: 20px;
+        }
+        thead > tr > th{
+            position:sticky;
+            top: -1px;
+            background-color:rgb(85, 85, 85);
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 15px;
+            text-align: center;
+        }
+        th{
+            background-color: rgb(85, 85, 85);
+            color: white;
+        }
+        tr:nth-child(even){
+            background-color:lightgray;
+        }       
+    </style>
+</head>
+<body>
+    
+    <div>
+        <table>
+            <caption>Comandos de HTML5</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Comandos</th>
+                    <th scope="col">O que faz</th>
+                </tr>
+            </thead>
+            <tbody>              
+                <tr>
+                    <td>a</td>
+                    <td>Define um link</td>
+                </tr>
+                <tr>
+                    <td>abbr</td>
+                    <td>Define uma abreviação</td>
+                </tr>
+                <tr>    
+                    <td>area</td>
+                    <td>Define uma área dentro de um mapa de imagem</td>
+                </tr>
+                <tr>    
+                    <td>base</td>
+                    <td>Define uma base URL para todos os links da página</td>
+                </tr>
+                <tr>    
+                    <td>button</td>
+                    <td>Define um botão de comando</td>
+                </tr>
+                <tr>
+                    <td>br</td>
+                    <td>Insere uma quebra de linha</td>
+                </tr>
+                <tr>    
+                    <td>dd</td>
+                    <td>Define uma descrição de definição</td>
+                </tr>
+                <tr>    
+                    <td>dfn</td>
+                    <td>Define um termo de definição</td>
+                </tr>
+                <tr>    
+                    <td>div</td>
+                    <td>Define uma seção no documento</td>
+                </tr>
+                <tr>    
+                    <td>dt</td>
+                    <td>Define um termo de definição</td>
+                </tr>
+                <tr>    
+                    <td>fieldset</td>
+                    <td>Define um conjunto de campos</td>
+                </tr>
+                <tr>
+                    <td>hr</td>
+                    <td>Define uma regra horizontal</td>
+                </tr>
+                <tr>    
+                    <td>html</td>
+                    <td>Define um documento html</td>
+                </tr>
+                <tr>    
+                    <td>iframe</td>
+                    <td>Insere um site dentro do seu site (Como uma janela)</td>
+                </tr>
+                <tr>    
+                    <td>img</td>
+                    <td>Define uma imagem</td>
+                </tr>
+                <tr>    
+                    <td>input</td>
+                    <td>Define um campo de inserção</td>
+                </tr>                 
+                <tr>    
+                    <td>legend</td>
+                    <td>Define um titúlo para os campos (fields)</td>
+                </tr>
+                <tr>    
+                    <td>link</td>
+                    <td>Define uma referência</td>
+                </tr>
+                <tr>    
+                    <td>map</td>
+                    <td>Define uma imagem de mapa</td>
+                </tr>
+                <tr>    
+                    <td>menu</td>
+                    <td>Define uma lista de "menus"</td>
+                </tr>
+                <tr>
+                    <td>meta</td>
+                    <td>Define informações meta</td>
+                </tr>
+                <tr>    
+                    <td>noscript</td>
+                    <td>Define uma seção noscript</td>
+                </tr>
+                <tr>    
+                    <td>object</td>
+                    <td>Define um objeto incorporado</td>
+                </tr>
+                <tr>    
+                    <td>optgroup</td>
+                    <td>Define um grupo de opção </td>
+                </tr>
+                <tr>
+                    <td>param</td>
+                    <td>Define um parâmetro para determinado objeto</td>
+                </tr>
+                <tr>    
+                    <td>smap</td>
+                    <td>Define um código de amostra</td>
+                </tr>
+                <tr>    
+                    <td>script</td>
+                    <td>Define um script</td>
+                </tr>              
+                <tr>    
+                    <td>span</td>
+                    <td>Define uma seção no documento</td>
+                </tr>
+                <tr>    
+                    <td>style</td>
+                    <td>Define um estilo</td>
+                </tr>
+                <tr>    
+                    <td>textarea</td>
+                    <td>Define uma área de texto</td>
+                </tr>
+                <tr>    
+                    <td>var</td>
+                    <td>Define uma variável</td>
+                </tr>
+                <tr>
+                <th colspan="2" scope="colgroup">Layout</th>
+                </tr>
+                <tr>    
+                    <td>head</td>
+                    <td>Define uma informação sobre o documento</td>
+                </tr>
+                <tr>    
+                    <td>body</td>
+                    <td>Define o corpo da página</td>
+                </tr>
+                <tr>    
+                    <td>title</td>
+                    <td>Define o tiúlo do documento</td>
+                </tr>
+                <tr>    
+                    <td>article</td>
+                    <td>Define um artigo</td>
+                </tr>
+                <tr>
+                    <td>aside</td>
+                    <td>Define o conteúdo além do conteúdo da página</td>
+                </tr>
+                <tr>    
+                    <td>embed</td>
+                    <td>Define o conteúdo interativo ou plugin externo</td>
+                </tr>
+                <tr>    
+                    <td>figcaption</td>
+                    <td>Define o caption de uma imagem</td>
+                </tr>
+                <tr>    
+                    <td>figure</td>
+                    <td>Define um grupo de média e seus captions</td>
+                </tr>
+                <tr>    
+                    <td>footer</td>
+                    <td>Define o rodapé de uma página</td>
+                </tr>
+                <tr>    
+                    <td>header</td>
+                    <td>Define o cabeçalho de uma página</td>
+                </tr>
+                <tr>    
+                    <td>nav</td>
+                    <td>Define os links de navegação</td>
+                </tr>
+                <tr>
+                    <td>section</td>
+                    <td>Define uma área ou seção</td>
+                </tr>
+                <tr>    
+                    <td>wbr</td>
+                    <td>Define uma possível quebra de linha</td>
+                </tr>    
+                <tr>
+                    <th colspan="2" scope="colgroup">Comandos de titúlos e parágrafos</th>
+                </tr>
+                <tr>
+                    <td>h1 até h6</td>
+                    <td>Define o cabeçalho 1 até o cabeçalho 6</td>
+                </tr>
+                <tr>
+                    <td>p</td>
+                    <td>Defie um parágrafo</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>Define um texto em negrito</td>
+                </tr>
+                <tr>
+                    <td>small</td>
+                    <td>Define um pequeno texto</td>
+                </tr>
+                <tr>    
+                    <td>sub</td>
+                    <td>Define um texto subscrito</td>
+                </tr>
+                <tr>    
+                    <td>sup</td>
+                    <td>Define um texto sobrescrito</td>
+                </tr>
+                <tr>    
+                    <td>strong</td>
+                    <td>Define um texto forte (Parecido com o negrito)</td>
+                </tr>
+                <tr>
+                    <td>code</td>
+                    <td>Define um código de texto do computador</td>
+                </tr>
+                <tr>    
+                    <td>cite</td>
+                    <td>Define uma citação</td>
+                </tr>
+                <tr>
+                    <td>s</td>
+                    <td>Define um texto que não é mais correto</td>
+                </tr>
+                <tr>
+                    <td>pre</td>
+                    <td>Define um texto pré-formatado</td>
+                </tr>
+                <tr>
+                    <td>kbd</td>
+                    <td>Define um texto do teclado</td>
+                </tr>
+                <tr>
+                    <td>ins</td>
+                    <td>Define um texto inserido</td>
+                </tr>
+                <tr>
+                    <td>i</td>
+                    <td>Define um texto em itálico</td>
+                </tr>
+                <tr>
+                    <td>em</td>
+                    <td>Define um texto em enfâse</td>
+                </tr>
+                <tr>
+                    <td>del</td>
+                    <td>Define um texto deletado</td>
+                </tr>
+                <tr>
+                    <td>adress</td>
+                    <td>Define um endereço</td>
+                </tr>
+                <tr>
+                    <td>bdo</td>
+                    <td>Define a direção do texto apresentado</td>
+                </tr>
+                <tr>
+                    <td>blockquote</td>
+                    <td>Define uma citação longa</td>
+                </tr>
+                <tr>    
+                    <td>q</td>
+                    <td>Define uma citação curta</td>
+                </tr>
+                <tr>
+                    <th colspan="2" scope="colgroup">Listas</th>
+                </tr>
+                <tr>    
+                    <td>li</td>
+                    <td>Define os itens da lista</td>
+                </tr>
+                <tr>    
+                    <td>ol</td>
+                    <td>Define uma lista ordenada</td>
+                </tr>
+                <tr>    
+                    <td>ul</td>
+                    <td>Define uma lista desordenada</td>
+                </tr>
+                <tr>
+                    <td>dl</td>
+                    <td>Define uma lista de definição</td>
+                </tr>
+                <tr>    
+                    <td>select</td>
+                    <td>Define uma lista selecionável</td>
+                </tr> 
+                <tr>    
+                    <td>option</td>
+                    <td>Define uma opção em uma lista suspensa (drop-down list)</td>
+                </tr>
+                <tr>
+                    <th colspan="2" scope="colgroup">Tabelas</th>
+                </tr>
+                <tr>    
+                    <td>table</td>
+                    <td>Define uma tabela</td>
+                </tr>
+                <tr>    
+                    <td>caption</td>
+                    <td>Define o titúlo de uma tabela</td>
+                </tr>
+                <tr>    
+                    <td>thead</td>
+                    <td>Define o cabeçalho da tabela </td>
+                </tr>
+                <tr>    
+                    <td>th</td>
+                    <td>Define as linhas do cabeçalho da tabela</td>
+                </tr>
+                <tr>
+                    <td>tbody</td>
+                    <td>Define o corpo de tabela</td>
+                </tr>
+                <tr>    
+                    <td>td</td>
+                    <td>Define uma célula da tabela</td>
+                </tr>
+                <tr>
+                    <td>tr</td>
+                    <td>Define uma linha da tabela</td>
+                </tr> 
+                <tr>    
+                    <td>tfoot</td>
+                    <td>Define o rodapé da tabela</td>
+                </tr> 
+                <tr>    
+                    <td>col</td>
+                    <td>Define os atributos da coluna da tabela</td>
+                </tr>
+                <tr>    
+                    <td>colgroup</td>
+                    <td>Define um grupo de colunas da tabela</td>
+                </tr> 
+                <tr>
+                    <th colspan="2" scope="colgroup">Formulários</th>
+                </tr> 
+                <tr>    
+                    <td>form</td>
+                    <td>Define um formulário</td>
+                </tr>
+                <tr>    
+                    <td>label</td>
+                    <td>Define uma etiqueta para o formulário</td>
+                </tr>
+
+                <tr>
+                    <th colspan="2" scope="colgroup"> Media</th>
+                </tr>
+                <tr>    
+                    <td>audio</td>
+                    <td>Define o conteúdo de som</td>
+                </tr>
+                <tr>    
+                    <td>source</td>
+                    <td>Define recursos de mídia</td>
+                </tr>
+                <tr>    
+                    <td>video</td>
+                    <td>Define um vídeo</td>
+                </tr>
+                <tr>
+                    <th colspan="2" scope="colgroup">Aplicativos Web</th>
+                </tr>
+                <tr>    
+                    <td>canvas</td>
+                    <td>Define gráficos</td>
+                </tr>
+                <tr>    
+                    <td>command</td>
+                    <td>Define um botão de comando</td>
+                </tr>
+                <tr>
+                    <td>datagrid</td>
+                    <td>Referência aos dados dinâmicos em Tree View ou tabelas</td>
+                </tr>
+                <tr>    
+                    <td>datalist</td>
+                    <td>Define uma lista suspensa (DropDown)</td>
+                </tr>
+                <tr>    
+                    <td>details</td>
+                    <td>Define detalhes de um elemento</td>
+                </tr>
+                <tr>    
+                    <td>output</td>
+                    <td>Define os tipos de saída (outputs)</td>
+                </tr>
+                <tr>    
+                    <td>progress</td>
+                    <td>Define o progresso de uma tarefa qualquer</td>
+                </tr>
+                <tr>    
+                    <td>dialog</td>
+                    <td>Define uma conversa ou pessoas falando</td>
+                </tr>
+                <tr>    
+                    <td>hgroup</td>
+                    <td>Define informações sobre uma determinada área do documento</td>
+                </tr>
+                <tr>
+                    <td>keygen</td>
+                    <td>Define a key (chave) do formulário</td>
+                </tr>
+                <tr>    
+                    <td>mark</td>
+                    <td>Define uma marcação de um texto</td>
+                </tr>
+                <tr>    
+                    <td>meter</td>
+                    <td>Define a medição dentro de um intervalo pré-definido</td>
+                </tr>
+                <tr>    
+                    <td>summary</td>
+                    <td>Define o cabeçalho de dadis "detalhe"</td>
+                </tr>
+                <tr>    
+                    <td>time</td>
+                    <td>Define uma data ou hora</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+</body>
+</html>
